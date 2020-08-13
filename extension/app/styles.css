@@ -1,0 +1,50 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --------------- PAGE FORMATTING --------------- */
+
+body {
+    text-align: center;
+    background: linear-gradient(rgb(105, 24, 197),rgb(46, 4, 95));
+    color: white;
+}
+
+.border {
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    padding: 15px;
+}
+
+.bottom-label {
+    padding-bottom: 17px;
+}
+
+.logo {
+    width: 48px;
+    padding-top: 15px;
+    padding-bottom: -25px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(20, 20, 20));
+    filter: drop-shadow(5px 5px 5px rgb(20, 20, 20));
+}
+
+.github-link {
+    color: white;
+}
+
+/* --------------- TEXT FORMATTING --------------- */
+
+h1 {
+    margin-bottom: -14px;
+    filter: drop-shadow(3px 3px 3px rgb(37, 5, 58));
+}
+
+p {
+    font-size: 13px;
+    padding-bottom: 7px;
+}
+
+label {
+    font-size: 18px;
+}
