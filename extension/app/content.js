@@ -1,11 +1,15 @@
 function WaitForVideo(){
+    
     const interval = setInterval(async function() {
-        let video = document.querySelector("video");
-        if (video) {
-            let userVolumeObj = await LoadFromAPIStorage("userVolume");
-            userVolume = userVolumeObj["userVolume"];
-            ChangeVideoVolume(video, userVolume / 100);
-            clearInterval(interval);
+        let url = window.location.href;
+        if (url.startsWith('https://www.instagram.com/stories')){
+            let video = document.querySelector("video");
+            if (video) {
+                let userVolumeObj = await LoadFromAPIStorage("userVolume");
+                userVolume = userVolumeObj["userVolume"];
+                ChangeVideoVolume(video, userVolume / 100);
+                clearInterval(interval);
+            }
         }
     }, 150);
 }
