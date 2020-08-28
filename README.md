@@ -1,4 +1,4 @@
-# <div align="center"><img align="center" width="48px" src="extension/icons/logo48.png"/><br>LowerThis!<br>![version 0.1](https://img.shields.io/badge/version-0.1-purple.svg?style=flat-square)</div>
+# <div align="center"><img align="center" width="48px" src="extension/icons/logo48.png"/><br>LowerThis!<br>![version 0.2](https://img.shields.io/badge/version-0.1-purple.svg?style=flat-square)</div>
 
 <br>
 
