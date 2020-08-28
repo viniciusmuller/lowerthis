@@ -1,6 +1,6 @@
 {
     "name": "LowerThis! - Instagram Story Volume Controller",
-    "version": "0.1",
+    "version": "0.2",
     "description": "An extension to control instagram stories volume.\nMade by @arcticlimer.",
     "permissions": [
         "storage"
